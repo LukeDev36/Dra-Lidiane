@@ -1380,6 +1380,7 @@ hr {
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 0.5rem; /* 24px */
     color: #FFFF;
+    max-width: 100%;
 }
 #whatsapp-contact-text h3{
     font-family: "Special Gothic Expanded One", sans-serif;
@@ -1421,9 +1422,10 @@ hr {
 
 #contact-address1 h3 {
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-size: 0.9rem; /* 19.2px */
+    font-size: 0.6rem; /* 19.2px */
     color: #FFFF;
     margin-bottom: 0.5rem;
+    max-width: 100%;
 }
 
 #contact-address2 p {
