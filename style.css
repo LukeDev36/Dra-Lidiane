@@ -207,6 +207,7 @@ hr {
     text-align: center;
     position: relative;
     right: 5rem; /* 40px */
+    width: 100%;
 }
 
 #main-image {
