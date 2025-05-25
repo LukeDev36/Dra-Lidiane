@@ -10,6 +10,17 @@
 html {
     scroll-behavior: smooth;
     font-size: 1rem; /* 16px */
+    width: 100%;
+    overflow-x: hidden; /* This prevents horizontal scrolling */
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 767px) {
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+        position: relative;
+    }
 }
 
 hr {
@@ -92,9 +103,6 @@ hr {
 
 /* Mobile Menu Styles */
 @media (max-width: 64rem) { /* 1024px */
-    .hamburger {
-        display: block;
-    }
 
     .nav-links, .social-icons {
         display: none;
@@ -182,23 +190,23 @@ hr {
 /* Mobile Layout */
 #main-heading h1 {
     color: #197697;
-    font-size: 2.2rem; /* 35.2px */
+    font-size: 1.8rem; /* 35.2px */
     font-family: "Special Gothic Expanded One", sans-serif;
     margin: 1rem 0;
     width: 100%;
     text-align: center;
     position: relative;
-    right: 2.5rem; /* 40px */
+    right:5rem;
 }
 
 #intro-text p {
     color: #197697;
     font-family: "Inter", sans-serif;
-    font-size: 1.3rem; /* 20.8px */
+    font-size: 1.01rem; /* 20.8px */
     margin: 1rem 0;
     text-align: center;
     position: relative;
-    right: 2.5rem; /* 40px */
+    right: 5rem; /* 40px */
 }
 
 #main-image {
@@ -215,12 +223,12 @@ hr {
     margin: 2rem auto;
     text-align: center;
     position: relative;
-    right: 2rem; /* 32px */
+    right: 4.5rem; /* 32px */
 }
 
 #appointment-button button {
-    height: 5rem; /* 80px */
-    width: 17.5rem; /* 280px */
+    height: 4rem; /* 80px */
+    width: 16.5rem; /* 280px */
     background-color: #DFF0EE;
     border-radius: 6.25rem; /* 100px */
     border: none;
@@ -238,15 +246,15 @@ hr {
 #button-text p {
     color: #197697;
     font-family: "Inter", sans-serif;
-    font-size: 1.2rem; /* 19.2px */
+    font-size: 1rem; /* 19.2px */
     font-weight: 550;
     margin: 0;
     position: static;
 }
 
 #button-icon img {
-    height: 1.875rem; /* 30px */
-    width: 1.875rem; /* 30px */
+    height: 1.675rem; /* 30px */
+    width: 1.675rem; /* 30px */
     position: static;
     margin: 0;
 }
@@ -1368,11 +1376,16 @@ hr {
     margin: 0 0 1.5rem 0;
 }
 
-#whatsapp-contact-text h3,
 #instagram-contact-text h3 {
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-size: 1.5rem; /* 24px */
+    font-size: 1rem; /* 24px */
     color: #FFFF;
+}
+#whatsapp-contact-text h3{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 1rem; /* 24px */
+    color: #FFFF;
+    max-width: 100%;
 }
 
 /* Contact Methods - Maintain Original Styling */
@@ -1400,28 +1413,27 @@ hr {
     margin: 0;
     transition: all 0.3s ease;
 }
-
 /* Address Section - Maintain Original Positioning */
 .contact-address {
     order: 2;
     margin: 1rem 0 2rem 3rem;
 }
 
-.contact-address h3 {
+#contact-address1 h3 {
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-size: 1.2rem; /* 19.2px */
+    font-size: 0.9rem; /* 19.2px */
     color: #FFFF;
     margin-bottom: 0.5rem;
 }
 
-.contact-address p {
+#contact-address2 p {
     font-family: "Inter", sans-serif;
-    font-size: 1rem;
+    font-size: 0.6rem;
     color: #FFFF;
     margin-bottom: 0.5rem;
 }
 
-.contact-address p {
+#contact-address3 p {
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 1rem;
     color: #FFFF;
@@ -1436,10 +1448,17 @@ hr {
     gap: 0.5rem;
 }
 
-.clinic-image {
+#clinic-image1,
+#clinic-image2,
+#clinic-image3,
+#clinic-image4 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    order: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
 }
 
 /* Original Hover Effects (Preserved) */
@@ -1581,6 +1600,12 @@ hr {
         position: relative;
         left: 7.5rem; /* 120px */
         bottom: 3.75rem; /* 60px */
+    }
+    #whatsapp-contact-text h3{
+        font-size:1.5rem;
+    }
+    #instagram-contact-text h3{
+        font-size:1.5rem;
     }
 
     #contact-address1 { grid-column: 1; grid-row: 4; }
