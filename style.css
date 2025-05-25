@@ -1437,13 +1437,13 @@ hr {
     text-decoration: none;
 }
 
-#contact-address1 h3,
+#contact-address1 p,
 #contact-address2 p,
 #contact-address3 p {
     color: #FFFF;
 }
 
-#contact-address1 h3 {
+#contact-address1 p {
     font-family: "Special Gothic Expanded One", sans-serif;
 }
 
@@ -1451,7 +1451,7 @@ hr {
     font-family: "Inter", sans-serif;
 }
 
-#contact-address3 h4 {
+#contact-address3 p {
     font-family: "Special Gothic Expanded One", sans-serif;
 }
 
@@ -1468,12 +1468,12 @@ hr {
     margin: 0 0 1.5rem 0;
 }
 
-#instagram-contact-text h3 {
+#instagram-contact-text p {
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 14,4px; /* 24px */
     color: #FFFF;
 }
-#whatsapp-contact-text h3{
+#whatsapp-contact-text p{
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 14,4px; /* 24px */
     color: #FFFF;
@@ -1498,7 +1498,7 @@ hr {
     margin-left: 1rem;
 }
 
-.contact-text h3 {
+.contact-text p {
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 1.2rem; /* 19.2px */
     color: #FFFF;
@@ -1511,7 +1511,7 @@ hr {
     margin: 1rem 0 2rem 3rem;
 }
 
-#contact-address1 h3 {
+#contact-address1 p {
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 14,4px; /* 19.2px */
     color: #FFFF;
@@ -1569,8 +1569,8 @@ hr {
     filter: drop-shadow(0 0 0.5rem #E1306C);
 }
 
-#whatsapp-contact-text:hover h3,
-#instagram-contact-text:hover h3 {
+#whatsapp-contact-text:hover p,
+#instagram-contact-text:hover p {
     color: #F9801C;
     text-decoration: underline;
     transition: all 0.3s ease;
@@ -1602,11 +1602,11 @@ hr {
         width: 4.375rem; /* 70px */
     }
 
-    .contact-text h3 {
+    .contact-text p {
         font-size: 1.4rem; /* 22.4px */
     }
     
-    #contact-address1 h3 {
+    #contact-address1 p {
         position: relative;
         right:4rem;
     }
@@ -1635,10 +1635,10 @@ hr {
         bottom: 7rem; /* 144px */
         left: 5rem; /* 96px */
     }
-    #instagram-contact-text h3{
+    #instagram-contact-text p{
         font-size: 1rem;
     }
-    #whatsapp-contact-text h3{
+    #whatsapp-contact-text p{
         font-size: 1rem;
     }
     #whatsapp-contact-icon {
@@ -1705,10 +1705,10 @@ hr {
         left: 7.5rem; /* 120px */
         bottom: 3.75rem; /* 60px */
     }
-    #whatsapp-contact-text h3{
+    #whatsapp-contact-text p{
         font-size:1rem;
     }
-    #instagram-contact-text h3{
+    #instagram-contact-text p{
         font-size:1rem;
     }
 
@@ -1727,12 +1727,12 @@ hr {
         width: 5rem; /* 80px */
     }
 
-    .contact-text h3 {
+    .contact-text p {
         font-size: 1.5rem; /* 24px */
     }
 
     /* Restore original positioning */
-    #contact-address1 h3 {
+    #contact-address1 p{
         position: relative;
         left: 3.5rem; /* 56px */
         top: 0;
