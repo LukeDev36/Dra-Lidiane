@@ -1470,12 +1470,12 @@ hr {
 
 #instagram-contact-text h3 {
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-size: 0.9rem; /* 24px */
+    font-size: 14,4px; /* 24px */
     color: #FFFF;
 }
 #whatsapp-contact-text h3{
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-size: 0.9rem; /* 24px */
+    font-size: 14,4px; /* 24px */
     color: #FFFF;
     max-width: 100%;
 }
@@ -1513,7 +1513,7 @@ hr {
 
 #contact-address1 h3 {
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-size: 0.9rem; /* 19.2px */
+    font-size: 14,4px; /* 19.2px */
     color: #FFFF;
     margin-bottom: 0.5rem;
 }
