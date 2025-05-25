@@ -202,7 +202,7 @@ hr {
 #intro-text p {
     color: #197697;
     font-family: "Inter", sans-serif;
-    font-size: 0.5rem; /* 20.8px */
+    font-size: 0.7rem; /* 20.8px */
     margin: 1rem 0;
     text-align: center;
     position: relative;
@@ -1378,13 +1378,13 @@ hr {
 
 #instagram-contact-text h3 {
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-size: 0.5rem; /* 24px */
+    font-size: 0.7rem; /* 24px */
     color: #FFFF;
     max-width: 100%;
 }
 #whatsapp-contact-text h3{
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-size: 0.5rem; /* 24px */
+    font-size: 0.7rem; /* 24px */
     color: #FFFF;
     max-width: 100%;
 }
@@ -1422,7 +1422,7 @@ hr {
 
 #contact-address1 h3 {
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-size: 0.6rem; /* 19.2px */
+    font-size: 0.7rem; /* 19.2px */
     color: #FFFF;
     margin-bottom: 0.5rem;
     max-width: 100%;
